@@ -3,4 +3,4 @@ Single Page App to illustrate a simple way to create and implement a slide-in ca
 <br>
 <br>
 
-![](images/simulator.gif)
+![](images/simulation.gif)
