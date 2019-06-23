@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FF6986221E612BC000E4794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6986121E612BC000E4794 /* AppDelegate.swift */; };
-		8FF6986421E612BC000E4794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6986321E612BC000E4794 /* ViewController.swift */; };
-		8FF6986921E612BD000E4794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6986821E612BD000E4794 /* Assets.xcassets */; };
-		8FF6986C21E612BD000E4794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF6986A21E612BD000E4794 /* LaunchScreen.storyboard */; };
-		8FF6987421E6160D000E4794 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6987321E6160D000E4794 /* PopupView.swift */; };
+		8F10A84122BD2FB6005CDA38 /* RoundedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10A84022BD2FB6005CDA38 /* RoundedButtonView.swift */; };
+		8F10A84422BD3462005CDA38 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10A84322BD3462005CDA38 /* OverlayView.swift */; };
+		8F10A84722BD37B5005CDA38 /* BitcoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10A84622BD37B5005CDA38 /* BitcoinView.swift */; };
+		8F468ED522BD2C23001F1554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F468ED422BD2C23001F1554 /* Assets.xcassets */; };
+		8F4E4CDA22BD25CA00B6FDAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E4CD922BD25CA00B6FDAC /* AppDelegate.swift */; };
+		8F4E4CDC22BD25CA00B6FDAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E4CDB22BD25CA00B6FDAC /* SceneDelegate.swift */; };
+		8F4E4CDE22BD25CA00B6FDAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E4CDD22BD25CA00B6FDAC /* ContentView.swift */; };
+		8F4E4CE322BD25CC00B6FDAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E4CE222BD25CC00B6FDAC /* Preview Assets.xcassets */; };
+		8F4E4CE622BD25CC00B6FDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E4CE422BD25CC00B6FDAC /* LaunchScreen.storyboard */; };
+		8FDE10DA22BD2D60004E4253 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE10D922BD2D5F004E4253 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8FF6985E21E612BC000E4794 /* Slide In Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slide In Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FF6986121E612BC000E4794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FF6986321E612BC000E4794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8FF6986821E612BD000E4794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8FF6986B21E612BD000E4794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8FF6986D21E612BD000E4794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FF6987321E6160D000E4794 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		8F10A84022BD2FB6005CDA38 /* RoundedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonView.swift; sourceTree = "<group>"; };
+		8F10A84322BD3462005CDA38 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		8F10A84622BD37B5005CDA38 /* BitcoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinView.swift; sourceTree = "<group>"; };
+		8F468ED422BD2C23001F1554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F4E4CD622BD25CA00B6FDAC /* Slide In Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slide In Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4E4CD922BD25CA00B6FDAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F4E4CDB22BD25CA00B6FDAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F4E4CDD22BD25CA00B6FDAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8F4E4CE222BD25CC00B6FDAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F4E4CE522BD25CC00B6FDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F4E4CE722BD25CC00B6FDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDE10D922BD2D5F004E4253 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8FF6985B21E612BC000E4794 /* Frameworks */ = {
+		8F4E4CD322BD25CA00B6FDAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,45 +45,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8FF6985521E612BC000E4794 = {
+		8F10A83E22BD2F86005CDA38 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8FF6986021E612BC000E4794 /* Slide In Card */,
-				8FF6985F21E612BC000E4794 /* Products */,
+				8F10A84522BD3791005CDA38 /* Popups */,
+				8F10A84222BD3444005CDA38 /* Overlays */,
+				8F10A83F22BD2F8D005CDA38 /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F10A83F22BD2F8D005CDA38 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8F10A84022BD2FB6005CDA38 /* RoundedButtonView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		8F10A84222BD3444005CDA38 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				8F10A84322BD3462005CDA38 /* OverlayView.swift */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
+		8F10A84522BD3791005CDA38 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				8F10A84622BD37B5005CDA38 /* BitcoinView.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		8F4E4CCD22BD25CA00B6FDAC = {
+			isa = PBXGroup;
+			children = (
+				8FDE10D922BD2D5F004E4253 /* README.md */,
+				8F4E4CD822BD25CA00B6FDAC /* Slide In Card */,
+				8F4E4CD722BD25CA00B6FDAC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8FF6985F21E612BC000E4794 /* Products */ = {
+		8F4E4CD722BD25CA00B6FDAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FF6985E21E612BC000E4794 /* Slide In Card.app */,
+				8F4E4CD622BD25CA00B6FDAC /* Slide In Card.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8FF6986021E612BC000E4794 /* Slide In Card */ = {
+		8F4E4CD822BD25CA00B6FDAC /* Slide In Card */ = {
 			isa = PBXGroup;
 			children = (
-				8FF6986121E612BC000E4794 /* AppDelegate.swift */,
-				8FF6986321E612BC000E4794 /* ViewController.swift */,
-				8FF6987321E6160D000E4794 /* PopupView.swift */,
-				8FF6986821E612BD000E4794 /* Assets.xcassets */,
-				8FF6986A21E612BD000E4794 /* LaunchScreen.storyboard */,
-				8FF6986D21E612BD000E4794 /* Info.plist */,
+				8F4E4CD922BD25CA00B6FDAC /* AppDelegate.swift */,
+				8F4E4CDB22BD25CA00B6FDAC /* SceneDelegate.swift */,
+				8F4E4CDD22BD25CA00B6FDAC /* ContentView.swift */,
+				8F10A83E22BD2F86005CDA38 /* Views */,
+				8F4E4CE422BD25CC00B6FDAC /* LaunchScreen.storyboard */,
+				8F4E4CE722BD25CC00B6FDAC /* Info.plist */,
+				8F468ED422BD2C23001F1554 /* Assets.xcassets */,
+				8F4E4CE122BD25CC00B6FDAC /* Preview Content */,
 			);
 			path = "Slide In Card";
+			sourceTree = "<group>";
+		};
+		8F4E4CE122BD25CC00B6FDAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8F4E4CE222BD25CC00B6FDAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8FF6985D21E612BC000E4794 /* Slide In Card */ = {
+		8F4E4CD522BD25CA00B6FDAC /* Slide In Card */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FF6987021E612BD000E4794 /* Build configuration list for PBXNativeTarget "Slide In Card" */;
+			buildConfigurationList = 8F4E4CEA22BD25CC00B6FDAC /* Build configuration list for PBXNativeTarget "Slide In Card" */;
 			buildPhases = (
-				8FF6985A21E612BC000E4794 /* Sources */,
-				8FF6985B21E612BC000E4794 /* Frameworks */,
-				8FF6985C21E612BC000E4794 /* Resources */,
+				8F4E4CD222BD25CA00B6FDAC /* Sources */,
+				8F4E4CD322BD25CA00B6FDAC /* Frameworks */,
+				8F4E4CD422BD25CA00B6FDAC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +136,25 @@
 			);
 			name = "Slide In Card";
 			productName = "Slide In Card";
-			productReference = 8FF6985E21E612BC000E4794 /* Slide In Card.app */;
+			productReference = 8F4E4CD622BD25CA00B6FDAC /* Slide In Card.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8FF6985621E612BC000E4794 /* Project object */ = {
+		8F4E4CCE22BD25CA00B6FDAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Leonardo Bilia";
 				TargetAttributes = {
-					8FF6985D21E612BC000E4794 = {
-						CreatedOnToolsVersion = 10.1;
+					8F4E4CD522BD25CA00B6FDAC = {
+						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = 8FF6985921E612BC000E4794 /* Build configuration list for PBXProject "Slide In Card" */;
+			buildConfigurationList = 8F4E4CD122BD25CA00B6FDAC /* Build configuration list for PBXProject "Slide In Card" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,46 +162,51 @@
 				en,
 				Base,
 			);
-			mainGroup = 8FF6985521E612BC000E4794;
-			productRefGroup = 8FF6985F21E612BC000E4794 /* Products */;
+			mainGroup = 8F4E4CCD22BD25CA00B6FDAC;
+			productRefGroup = 8F4E4CD722BD25CA00B6FDAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FF6985D21E612BC000E4794 /* Slide In Card */,
+				8F4E4CD522BD25CA00B6FDAC /* Slide In Card */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8FF6985C21E612BC000E4794 /* Resources */ = {
+		8F4E4CD422BD25CA00B6FDAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF6986C21E612BD000E4794 /* LaunchScreen.storyboard in Resources */,
-				8FF6986921E612BD000E4794 /* Assets.xcassets in Resources */,
+				8F4E4CE622BD25CC00B6FDAC /* LaunchScreen.storyboard in Resources */,
+				8F468ED522BD2C23001F1554 /* Assets.xcassets in Resources */,
+				8FDE10DA22BD2D60004E4253 /* README.md in Resources */,
+				8F4E4CE322BD25CC00B6FDAC /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8FF6985A21E612BC000E4794 /* Sources */ = {
+		8F4E4CD222BD25CA00B6FDAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF6987421E6160D000E4794 /* PopupView.swift in Sources */,
-				8FF6986421E612BC000E4794 /* ViewController.swift in Sources */,
-				8FF6986221E612BC000E4794 /* AppDelegate.swift in Sources */,
+				8F4E4CDA22BD25CA00B6FDAC /* AppDelegate.swift in Sources */,
+				8F10A84722BD37B5005CDA38 /* BitcoinView.swift in Sources */,
+				8F4E4CDC22BD25CA00B6FDAC /* SceneDelegate.swift in Sources */,
+				8F10A84122BD2FB6005CDA38 /* RoundedButtonView.swift in Sources */,
+				8F4E4CDE22BD25CA00B6FDAC /* ContentView.swift in Sources */,
+				8F10A84422BD3462005CDA38 /* OverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8FF6986A21E612BD000E4794 /* LaunchScreen.storyboard */ = {
+		8F4E4CE422BD25CC00B6FDAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8FF6986B21E612BD000E4794 /* Base */,
+				8F4E4CE522BD25CC00B6FDAC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -154,7 +214,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8FF6986E21E612BD000E4794 /* Debug */ = {
+		8F4E4CE822BD25CC00B6FDAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,7 +246,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -205,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -215,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		8FF6986F21E612BD000E4794 /* Release */ = {
+		8F4E4CE922BD25CC00B6FDAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +306,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -260,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,38 +328,46 @@
 			};
 			name = Release;
 		};
-		8FF6987121E612BD000E4794 /* Debug */ = {
+		8F4E4CEB22BD25CC00B6FDAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Slide In Card\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = C8CWPZXDG8;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Slide In Card/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.touchblue.Slide-In-Card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8FF6987221E612BD000E4794 /* Release */ = {
+		8F4E4CEC22BD25CC00B6FDAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Slide In Card\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = C8CWPZXDG8;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Slide In Card/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.touchblue.Slide-In-Card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -309,25 +375,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FF6985921E612BC000E4794 /* Build configuration list for PBXProject "Slide In Card" */ = {
+		8F4E4CD122BD25CA00B6FDAC /* Build configuration list for PBXProject "Slide In Card" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FF6986E21E612BD000E4794 /* Debug */,
-				8FF6986F21E612BD000E4794 /* Release */,
+				8F4E4CE822BD25CC00B6FDAC /* Debug */,
+				8F4E4CE922BD25CC00B6FDAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FF6987021E612BD000E4794 /* Build configuration list for PBXNativeTarget "Slide In Card" */ = {
+		8F4E4CEA22BD25CC00B6FDAC /* Build configuration list for PBXNativeTarget "Slide In Card" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FF6987121E612BD000E4794 /* Debug */,
-				8FF6987221E612BD000E4794 /* Release */,
+				8F4E4CEB22BD25CC00B6FDAC /* Debug */,
+				8F4E4CEC22BD25CC00B6FDAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8FF6985621E612BC000E4794 /* Project object */;
+	rootObject = 8F4E4CCE22BD25CA00B6FDAC /* Project object */;
 }
